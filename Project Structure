@@ -1,0 +1,10 @@
+ /src
+  /components
+    - Login.js
+    - Register.js
+    - JobList.js
+    - JobSearch.js
+    - Profile.js
+    - Dashboard.js
+  /utils
+    - auth.js (to handle JWT)

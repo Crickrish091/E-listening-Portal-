@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Portal</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses/">Courses</a></li>
+            <li><a href="/dashboard/">Dashboard</a></li>
+            <li><a href="/login/">Login</a></li>
+            <li><a href="/register/">Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="banner">
+        <h1>Welcome to E-learning Portal</h1>
+        <p>Join thousands of students and educators learning together.</p>
+        <a href="/register/" class="btn">Get Started</a>
+    </header>
+
+    <!-- Main Content -->
+    <section class="main-content">
+        <div class="courses-preview">
+            <h2>Featured Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h3>Course Title 1</h3>
+                    <p>Learn the basics of web development.</p>
+                    <a href="/courses/1/" class="btn">View Course</a>
+                </div>
+                <div class="course-card">
+                    <h3>Course Title 2</h3>
+                    <p>Master Python programming from scratch.</p>
+                    <a href="/courses/2/" class="btn">View Course</a>
+                </div>
+                <!-- Add more courses as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 E-learning Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
